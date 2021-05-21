@@ -80,7 +80,7 @@ def join(id, password):
 # Actually running the function
 while True:
     # Get current time
-    now = datetime.gettime.now()
+    now = datetime.now()
     # Format the time
     current_time = (now.strftime("%d-%m-%y %H:%M"))
     # Check the time (CHANGE IT TO YOUR DESIRED TIME)
