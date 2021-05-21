@@ -1,6 +1,6 @@
 import pyautogui
 import subprocess
-import datetime
+from datetime import datetime
 import time
 
 timeYouWant = "DD/MM/YY HH:MM"
