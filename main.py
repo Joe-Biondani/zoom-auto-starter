@@ -3,10 +3,13 @@ import subprocess
 import datetime
 import time
 
+timeYouWant = "DD/MM/YY HH:MM"
+# SCROLL DOWN TO THE LOOP TO CHANGE THE PASS AND ID AND/OR ADD MULTIPLE DIFFERENT ZOOMS
+
 def join(id, password):
 
     # Open Zoom
-    subprocess.call("C:\\Users\\joebi\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe")
+    subprocess.call("C:\\Users\\YOURUSERNAME\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe")
     print("Opened Zoom")
     
     # Find the plus button
@@ -81,9 +84,9 @@ while True:
     # Format the time
     current_time = (now.strftime("%d-%m-%y %H:%M"))
     # Check the time (CHANGE IT TO YOUR DESIRED TIME)
-    if current_time == "12/05/21 19:00":
+    if current_time == timeYouWant:
         # run function and stop the loop
-        join("89612494073", "139687")
+        join("ID", "PASSWORD")
         break
     else:
         # give it a 5 sec delay before checking again
