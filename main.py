@@ -82,7 +82,7 @@ while True:
     # Get current time
     now = datetime.now()
     # Format the time
-    current_time = (now.strftime("%d-%m-%y %H:%M"))
+    current_time = (now.strftime("%d/%m/%y %H:%M"))
     # Check the time (CHANGE IT TO YOUR DESIRED TIME)
     if current_time == timeYouWant:
         # run function and stop the loop
